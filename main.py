@@ -145,8 +145,8 @@ string = 'hello 你好'
 string,md5 = encrypt(string,key,md5_check=True)
 content = decrypt(string,123456,md5=md5)
 
-print (string,md5)
-print (content)
+#print (string,md5)
+#print (content)
 
 #656-736-033-933-655-263-447-155-054-913-937-996-804-915-967-713 02ce4965fa4ea6016de8ba96a901a62b
 #hello 你好
